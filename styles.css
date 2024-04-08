@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b0b0b0;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 25px;
+}
+
+form label{
+    font-size: 30px;
+    color: white;
+}
+
+form input{
+    width: 250px;
+    height: 35px;
+}
+
+.button{
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid #a6a6a6;
+}
+
+.button:hover{
+    background-color: #a6a6a6;
+    transition: all 0.7s;
+}

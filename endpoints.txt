@@ -1,0 +1,68 @@
+<<<<<<<<<<<<<<<<<<<<<<< Clientes >>>>>>>>>>>>>>>>>>>>>>
+ 
+-El sistema me debe permitir <Listar todos los clientes registrados>
+
+http://localhost:3000/api/v1/clients
+
+-El sistema me debe permitir <Ver detalles de un cliente por ID>
+
+http://localhost:3000/api/v1/getClient/{_id}
+
+
+-El sistema me debe permitir <Crear un nuevo cliente>
+
+http://localhost:3000/api/v1/createClient
+
+-El sistema me debe permitir <Actualizar un cliente por ID>
+
+http://localhost:3000/api/v1/updateClient/{_id}
+
+-El sistema me debe permitir <Eliminar un cliente por ID>
+
+http://localhost:3000/api/v1/deleteClient/{_id}
+
+-El sistema me debe permitir <Ver detalles de un cliente por email>
+
+http://localhost:3000/api/v1/getClientByEmail/{email}
+
+-El sistema me debe permitir <Listar clientes por genero ya sea Masculino o femenino> se envía el género por parámetro.
+
+http://localhost:3000/api/v1/getClientByGender/{gender}
+
+-El sistema me debe permitir <Listar clientes por edad> se envía la edad por parámetro
+
+http://localhost:3000/api/v1/getClientByAge/{age}
+
+<<<<<<<<<<<<<<<<<<<<<<<< Books >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+-El sistema me debe permitir <Listar todos los libros registrados>
+
+http://localhost:3000/api/v1/books
+
+-El sistema me debe permitir <Ver detalles de un libro por ID>
+
+http://localhost:3000/api/v1/getBookById/{_id}
+
+-El sistema me debe permitir <Crear un nuevo libro>
+
+http://localhost:3000/api/v1/createBook
+
+-El sistema me debe permitir <Actualizar un libro por ID>
+
+http://localhost:3000/api/v1/updateBook/{_id}
+
+-El sistema me debe permitir <Eliminar un libro por ID>
+
+http://localhost:3000/api/v1/deleteBook/{_id}
+
+-El sistema me debe permitir <listar libros por author> se envía por parámetro el autor
+
+http://localhost:3000/api/v1/getAuthor/{author}
+
+-El sistema me debe permitir <Filtrar por nombre del libro> se envía por parámetro el nombre del libro.
+
+http://localhost:3000/api/v1/getBookName/{name}
+
+-El sistema me debe permitir <Filtrar por cantidad de páginas> se envía por parámetro la cantidad de las páginas.
+
+http://localhost:3000/api/v1/getPages/{pages}

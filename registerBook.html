@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create Book</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <form action="http://localhost:3000/api/v1/createBook" method="post">
+            <label>Name</label>
+            <input type="text" name="name">
+            <label>Author</label>
+            <input type="text" name="author">
+            <label>Pages</label>
+            <input type="number" name="pages">
+            <label>Description</label>
+            <input type="text" name="description">
+
+            <input type="submit" value="Enviar" class="button">
+        </form>
+    </body>
+</html>
